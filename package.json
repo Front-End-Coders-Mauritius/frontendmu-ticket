@@ -10,11 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@directus/sdk": "^13.0.2",
     "nuxt": "^3.10.3",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@nuxtjs/seo": "2.0.0-rc.8"
+    "@nuxtjs/seo": "2.0.0-rc.8",
+    "@nuxtjs/tailwindcss": "^6.11.4"
   }
 }
