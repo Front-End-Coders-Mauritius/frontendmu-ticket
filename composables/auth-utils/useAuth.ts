@@ -52,7 +52,7 @@ export default function useAuth() {
     async function readRsvp({ id, event_id, user_id }: { id?: string, event_id?: string, user_id?: string }) {
         try {
             isLoading.value = true;
-            const token = 'RT8imy3iJljgbpNV2FoZzy4E1luRuugo' // getCookieValue('access_token')
+            const token = 'readme' // getCookieValue('access_token')
 
             if (!token) {
                 isLoading.value = false;
